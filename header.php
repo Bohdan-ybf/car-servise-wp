@@ -9,26 +9,60 @@
     <title>
         <?php
     if (is_front_page()) {
-        echo 'Detailing car service';
-    } elseif (is_page('contact')) {
-        echo 'Title контактов';
-    } else {
-        echo '33333';
+        echo 'Detailing Car Service – Професійний детейлінг авто в Києві';
+    } elseif (is_page('car-body')) {
+        echo 'Послуги детейлінгу авто – Київ | Detailing Car Service';
+    } elseif (is_page('car-interior')) {
+        echo 'Послуги детейлінгу авто – Київ | Detailing Car Service';
+    }elseif (is_page('price')) {
+        echo 'Ціни на детейлінг авто у Києві | Detailing Car Service';
+    }elseif (is_page('gallery')) {
+        echo 'Галерея робіт – Detailing Car Service, Київ';
+    }elseif (is_page('about')) {
+        echo 'Про нас – Detailing Car Service, Київ';
+    }elseif (is_page('actions')) {
+        echo 'Акції та знижки на детейлінг авто | Detailing Car Service';
+    }elseif (is_page('contact')) {
+        echo 'Контакти Detailing Car Service – Київ';
+    }
+     else {
+        echo 'Detailing Car Service – Професійний детейлінг авто в Києві';
     }
     ?>
+
     </title>
 
     <meta name="description" content="<?php
-        if (is_front_page()) {
-            echo 'Описание главной страницы вашего сайта';
-        } elseif (is_page('contact')) {
-            echo 'Описание страницы контактов';
-        } elseif (is_single()) {
-            echo get_the_excerpt(); // Можно выдать описание из краткого содержания поста
-        } else {
-            echo 'Стандартное описание всего сайта';
-        }
+      if (is_front_page()) {
+        echo 'Довірте свій автомобіль експертам! Полірування, хімчистка, захист кузова. Детейлінг преміум-рівня у Києві.';
+    } elseif (is_page('car-body')) {
+        echo 'Повний спектр послуг: полірування, кераміка, хімчистка, захист кузова. Запишіться на професійний детейлінг у Києві!';
+    } elseif (is_page('car-interior')) {
+        echo 'Повний спектр послуг: полірування, кераміка, хімчистка, захист кузова. Запишіться на професійний детейлінг у Києві!';
+    }elseif (is_page('price')) {
+        echo 'Дізнайтеся вартість полірування, хімчистки, керамічного покриття та інших послуг. Найкраща якість за чесну ціну!';
+    }elseif (is_page('gallery')) {
+        echo 'Подивіться фото до та після! Результати полірування, хімчистки, захисту кузова. Довірте своє авто професіоналам.';
+    }elseif (is_page('about')) {
+        echo 'Ми – команда експертів з детейлінгу. Працюємо з любов’ю до авто, використовуємо якісні матеріали та сучасні технології.';
+    }elseif (is_page('actions')) {
+        echo ' Вигідні пропозиції на полірування, керамічний захист, хімчистку. Дізнайтесь про актуальні знижки та бонуси!';
+    }elseif (is_page('contact')) {
+        echo 'Зв’яжіться з нами! Адреса, телефон, соціальні мережі. Запишіться на професійний детейлінг авто прямо зараз!';
+    }
+     else {
+        echo 'Довірте свій автомобіль експертам! Полірування, хімчистка, захист кузова. Детейлінг преміум-рівня у Києві.';
+    }
     ?>">
+
+<meta property="og:type" content="https://www.instagram.com/dscarservice/"/>
+<meta property="og:locale" content="ua" />
+<meta property="og:locale:alternate" content="uk-ua" />
+<meta property="og:url" content="<?php echo get_permalink(get_page_by_title('home')->ID); ?>"/>
+<meta property="og:site_name" content="Detailing Car Service">
+<meta property="og:title" content="Detailing Car Service – Професійний детейлінг авто в Києві">
+<meta property="og:description" content="Detailing Car Service – Довірте свій автомобіль експертам! Полірування, хімчистка, захист кузова. Детейлінг преміум-рівня у Києві."/>
+<link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/icon-site.ico" type="image/x-icon">
 
 
     <?php wp_head(); ?>
@@ -110,17 +144,26 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav header_logo_nav">
-                            <a class="header_logo" href="<?php echo get_permalink(get_page_by_title('home')->ID); ?>"><img class="header_logo_img"
+                            <a class="header_logo"
+                                href="<?php echo get_permalink(get_page_by_title('home')->ID); ?>"><img
+                                    class="header_logo_img"
                                     src="<?php bloginfo('template_url'); ?>/assets/images/logo-service.png" alt=""></a>
                         </div>
                         <div class="navbar-nav">
-                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('home')->ID); ?>">Головна</a>
-                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>">Послуги</a>
-                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('price')->ID); ?>">Прайси</a>
-                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('gallery')->ID); ?>">Галерея</a>
-                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('about')->ID); ?>">Про студію</a>
-                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('actions')->ID); ?>">Спецпропозиції</a>
-                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('contact')->ID); ?>">Контакти</a>
+                            <a class="nav-link"
+                                href="<?php echo get_permalink(get_page_by_title('home')->ID); ?>">Головна</a>
+                            <a class="nav-link"
+                                href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>">Послуги</a>
+                            <a class="nav-link"
+                                href="<?php echo get_permalink(get_page_by_title('price')->ID); ?>">Прайси</a>
+                            <a class="nav-link"
+                                href="<?php echo get_permalink(get_page_by_title('gallery')->ID); ?>">Галерея</a>
+                            <a class="nav-link" href="<?php echo get_permalink(get_page_by_title('about')->ID); ?>">Про
+                                студію</a>
+                            <a class="nav-link"
+                                href="<?php echo get_permalink(get_page_by_title('actions')->ID); ?>">Спецпропозиції</a>
+                            <a class="nav-link"
+                                href="<?php echo get_permalink(get_page_by_title('contact')->ID); ?>">Контакти</a>
                         </div>
 
                         <div class="navbar-nav header_tel_nav_bar header_tel_nav_bar_desc">
