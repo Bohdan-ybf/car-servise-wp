@@ -15,6 +15,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
 
 <main class="main">
+    
 
             <section class="main_banner actions_banner">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/gallery-bg.jpg" alt="">

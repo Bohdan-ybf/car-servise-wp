@@ -6,12 +6,13 @@ Template Name: carinterior
 ?>
 
 <?php
-global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $address_link, $mail;
+global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $address_link, $mai;
 ?>
 
 
 
 <?php get_header(); ?>
+
 
 
 <main class="main">
@@ -60,23 +61,23 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                             <div class="service_price_box">
                                 <p class="service_price_name">Малий</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $sm_cleaning_salon; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Середній</p>
-                                <p class="service_price">1 000 грн</p>
+                                 <p class="service_price"><?php echo $md_cleaning_salon; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Бізнес</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $bis_cleaning_salon; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Преміум</p>
-                                <p class="service_price">1 000 грн</p>
+                                 <p class="service_price"><?php echo $prem_cleaning_salon; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $cros_cleaning_salon; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50" target="_blank">Замовити</a>
@@ -103,23 +104,23 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                             <div class="service_price_box">
                                 <p class="service_price_name">Малий</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $sm_skin_restoration; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Середній</p>
-                                <p class="service_price">1 000 грн</p>
+                                 <p class="service_price"><?php echo $md_skin_restoration; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Бізнес</p>
-                                <p class="service_price">1 000 грн</p>
+                                  <p class="service_price"><?php echo $bis_skin_restoration; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Преміум</p>
-                                <p class="service_price">1 000 грн</p>
+                                 <p class="service_price"><?php echo $prem_skin_restoration; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price">1 000 грн</p>
+                                  <p class="service_price"><?php echo $cros_skin_restoration; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50" target="_blank">Замовити</a>
@@ -146,23 +147,23 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                             <div class="service_price_box">
                                 <p class="service_price_name">Малий</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $sm_drowning; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Середній</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $md_drowning; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Бізнес</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $bis_drowning; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Преміум</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $prem_drowning; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price">1 000 грн</p>
+                                 <p class="service_price"><?php echo $cros_drowning; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50" target="_blank">Замовити</a>
@@ -189,23 +190,23 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                             <div class="service_price_box">
                                 <p class="service_price_name">Малий</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $sm_dry_coating; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Середній</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $md_dry_coating; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Бізнес</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $bis_dry_coating; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Преміум</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $prem_dry_coating; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $cros_dry_coating; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50" target="_blank">Замовити</a>
@@ -232,23 +233,23 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                             <div class="service_price_box">
                                 <p class="service_price_name">Малий</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $sm_zakhist_glossy; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Середній</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $md_zakhist_glossy; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Бізнес</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $bis_zakhist_glossy; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Преміум</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $prem_zakhist_glossy; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $cros_zakhist_glossy; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50" target="_blank">Замовити</a>
@@ -275,23 +276,23 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                             <div class="service_price_box">
                                 <p class="service_price_name">Малий</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $sm_ozonation; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Середній</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $md_ozonation; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Бізнес</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $bis_ozonation; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Преміум</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $prem_ozonation; ?></p>
                             </div>
                             <div class="service_price_box">
                                 <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price">1 000 грн</p>
+                                <p class="service_price"><?php echo $cros_ozonation; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50" target="_blank">Замовити</a>

@@ -237,7 +237,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                             fill="#FFFEFE"></path>
                                     </g>
                                 </svg>
-                                <p class="why_us_title">кожен клієнт особливий</p>
+                                <p class="why_us_title">Кожен клієнт особливий</p>
                                 <p class="why_us_text">Індивідуальний підхід до кожного клієнта</p>
                             </div>
                             <div class="why_us_info_box">
@@ -252,8 +252,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                         </path>
                                     </g>
                                 </svg>
-                                <p class="why_us_title">найкраще обладнання</p>
-                                <p class="why_us_text">Ми постійно інвестуємо у новітнє обладнання</p>
+                                <p class="why_us_title">Професійне обладнання</p>
+                                <p class="why_us_text">Ми постійно інвестуємо у найкраще професійне обладнання</p>
                             </div>
                             <div class="why_us_info_box">
                                 <svg fill="#FFFEFE" width="64px" height="64px" viewBox="0 0 64 64"
