@@ -20,10 +20,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <div class="container">
                     <div class="about_box">
                         <img class="header_logo_img" src="<?php bloginfo('template_url'); ?>/assets/images/logo-service.png" alt="">
-                        <p class="about_text">Detailing car service — це спеціалізований сервіс, що пропонує
-                            комплексне
-                            очищення та догляд за автомобілями, спрямований на відновлення їх естетичного вигляду і
-                            забезпечення довговічності.</p>
+                        <h1 class="about_text">Detailing car service — детейлінгова студія, заснована у 2013 році, з великим досвідом у сфері професійного догляду за авто. Ми пропонуємо широкий спектр послуг для збереження та покращення зовнішнього вигляду вашого автомобіля, використовуючи сучасні технології та якісні матеріали.</h1>
                     </div>
                 </div>
             </section>

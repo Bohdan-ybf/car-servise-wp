@@ -219,7 +219,8 @@ body {
 }
 
 .header_tel:hover>svg>g>path {
-    fill: #125DF0;
+    /* fill: #125DF0; */
+    opacity: 80%;
 }
 
 .navbar>.container,

@@ -20,10 +20,10 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <div class="main_banner_info">
                     <!-- <h1 class="main_banner_title"><span>D</span>etailing  <span>C</span>ar <span>S</span>ervice</h1>-->
                     <img class="main_banner_logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo-service.png" alt="">
-                    <p class="main_banner_text">Догляд за авто доступний кожному</p>
+                    <h1 class="main_banner_text">Догляд за авто доступний кожному</h1>
                     <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
                         очікуєте.</p>
-                        <a class="banner_call_button" href="tel:<?php echo $phone; ?>">Замовити дзвінок</a>
+                        <a class="banner_call_button" href="tel:<?php echo $phone; ?>">Зателефонувати</a>
                 </div>
             </section>
 
@@ -58,8 +58,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-14.jpg" alt="">
                                     <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Хімчистка салону авто з розбором або
-                                            без</p>
+                                        <p class="our_services_slide_info_title">Хімчистка</p>
                                         <p class="our_services_slide_info_text">Хімчистка салону авто з розбором або без
                                         </p>
                                     </div>
@@ -68,7 +67,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-3.jpeg" alt="">
                                     <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Відновлююче полірування або корекційне
+                                        <p class="our_services_slide_info_title">Полірування
                                         </p>
                                         <p class="our_services_slide_info_text">Ідеальне рішення для повернення
                                             автомобілю первісного вигляду</p>
@@ -78,7 +77,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-9.jpg" alt="">
                                     <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Оклейка кузова антигравійною плівкою
+                                        <p class="our_services_slide_info_title">Антигравійна плівка
                                         </p>
                                         <p class="our_services_slide_info_text">Ефективний спосіб захисту автомобіля від
                                             механічних пошкоджень, таких як подряпини, кам’яні відколи та інші негативні
@@ -89,7 +88,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-4.jpeg" alt="">
                                     <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Детейлінг мийка</p>
+                                        <p class="our_services_slide_info_title">Мийка</p>
                                         <p class="our_services_slide_info_text">Професійне очищення авто</p>
                                     </div>
                                 </a>
@@ -97,7 +96,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-7.jpg" alt="">
                                     <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Мийка підкапотного простору</p>
+                                        <p class="our_services_slide_info_title">Мийка двигуна</p>
                                         <p class="our_services_slide_info_text">Запорука довговічності двигуна</p>
                                     </div>
                                 </a>
@@ -106,7 +105,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-18.jpg" alt="">
                                     <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Нанесення захисних покритів</p>
+                                        <p class="our_services_slide_info_title">Захисні покриття</p>
                                         <p class="our_services_slide_info_text">Ключовий етап для збереження ідеального
                                             стану автомобіля</p>
                                     </div>
@@ -166,12 +165,13 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-11.jpg" alt="">
                                     <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Нанесення захисних покриттів в салоні
+                                        <p class="our_services_slide_info_title">Захисні покриття салон
                                         </p>
                                         <p class="our_services_slide_info_text">Процес, що забезпечує додатковий захист
                                             матеріалів інтер'єру від зносу, бруду, забруднень і плям</p>
                                     </div>
                                 </a>
+                                 <!--
                                 <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#restavratsiyaSalony"
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-17.jpg" alt="">
@@ -183,6 +183,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                             бруду і зносу</p>
                                     </div>
                                 </a>
+                                -->
                                 <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#ozonatsiya"
                                     class="swiper-slide our_services_slide">
                                     <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-10.jpg" alt="">
@@ -206,7 +207,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                         <div class="why_us_info_wrapper">
                             <div class="why_us_up_box">
-                                <p class="why_us_up_title">Чому ми?</p>
+                                <h2 class="why_us_up_title">Чому ми?</h2>
                                 <p class="why_us_up_text">Детейлінгова студія яка працює з 2013 року</p>
                             </div>
                             <div class="why_us_info_box">
@@ -393,7 +394,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                     <p class="actions_modal_text"> З радістю чекаємо на вас у нашому сервісі!</p>
                 </div>
                 <div class="modal-footer">
-                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Замовити дзвінок</a>
+                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Зателефонувати</a>
 
                 </div>
             </div>
@@ -443,7 +444,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                     <p class="actions_modal_text">Чекаємо вас у нашому сервісі!</p>
                 </div>
                 <div class="modal-footer">
-                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Замовити дзвінок</a>
+                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Зателефонувати</a>
 
                 </div>
             </div>
@@ -496,7 +497,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                 </div>
                 <div class="modal-footer">
-                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Замовити дзвінок</a>
+                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Зателефонувати</a>
 
                 </div>
             </div>
@@ -553,7 +554,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 
                 </div>
                 <div class="modal-footer">
-                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Замовити дзвінок</a>
+                    <a class="actions_modal_btn" href="tel:<?php echo $phone; ?>" target="_blank">Зателефонувати</a>
 
                 </div>
             </div>

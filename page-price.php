@@ -20,7 +20,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
             <section class="main_banner actions_banner">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/gallery-bg.jpg" alt="">
                 <div class="main_banner_info">
-                    <p class="main_banner_text">Прайси</p>
+                    <h1 class="main_banner_text">Прайси</h1>
                     <!--  <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
                                 очікуєте.</p>  -->
                 </div>

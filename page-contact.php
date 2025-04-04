@@ -21,7 +21,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <div class="main_banner_info">
             <!-- <h1 class="main_banner_title"><span>D</span>etailing  <span>C</span>ar <span>S</span>ervice</h1>-->
 
-            <p class="main_banner_text">Контакти</p>
+            <h1 class="main_banner_text">Контакти</h1>
             <!--  <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
                             очікуєте.</p>  -->
         </div>
