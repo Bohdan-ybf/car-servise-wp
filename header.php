@@ -55,14 +55,15 @@
     }
     ?>">
 
-<meta property="og:type" content="https://www.instagram.com/dscarservice/"/>
-<meta property="og:locale" content="ua" />
-<meta property="og:locale:alternate" content="uk-ua" />
-<meta property="og:url" content="<?php echo get_permalink(get_page_by_title('home')->ID); ?>"/>
-<meta property="og:site_name" content="Detailing Car Service">
-<meta property="og:title" content="Detailing Car Service – Професійний детейлінг авто в Києві">
-<meta property="og:description" content="Detailing Car Service – Довірте свій автомобіль експертам! Полірування, хімчистка, захист кузова. Детейлінг преміум-рівня у Києві."/>
-<link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/icon-site.ico" type="image/x-icon">
+    <meta property="og:type" content="https://www.instagram.com/dscarservice/" />
+    <meta property="og:locale" content="ua" />
+    <meta property="og:locale:alternate" content="uk-ua" />
+    <meta property="og:url" content="<?php echo get_permalink(get_page_by_title('home')->ID); ?>" />
+    <meta property="og:site_name" content="Detailing Car Service">
+    <meta property="og:title" content="Detailing Car Service – Професійний детейлінг авто в Києві">
+    <meta property="og:description"
+        content="Detailing Car Service – Довірте свій автомобіль експертам! Полірування, хімчистка, захист кузова. Детейлінг преміум-рівня у Києві." />
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/assets/images/icon-site.ico" type="image/x-icon">
 
 
     <?php wp_head(); ?>

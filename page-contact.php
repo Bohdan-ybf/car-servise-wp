@@ -95,8 +95,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             </svg>
                             <span class="offcanvas_info_link" target="_blank">Viber</span>
                         </a>
-                        <a class="banner_call_button contact_call_button" href="tel:<?php echo $phone; ?>">Замовити
-                            дзвінок</a>
+                        <a class="banner_call_button contact_call_button"
+                            href="tel:<?php echo $phone; ?>">Зателефонувати</a>
                     </div>
                 </div>
 

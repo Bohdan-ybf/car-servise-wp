@@ -1138,6 +1138,13 @@ button.special_offers_box:hover {
     height: 350px;
 }
 
+.service_box_info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .service_img {
     width: 100%;
     height: 100%;
@@ -1295,13 +1302,17 @@ button.special_offers_box:hover {
 
 /* END Footer */
 
-@media (max-width: 1400px) {
-    .header_logo {
-        max-width: 190px;
-    }
+@media (max-width: 1600px) {
+
 
     .container {
         padding: 0 60px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .header_logo {
+        max-width: 190px;
     }
 }
 
@@ -1463,20 +1474,22 @@ button.special_offers_box:hover {
     }
 
     .main_banner_text {
-        font-size: 20px;
+        font-size: 21px;
+        padding: 0 40px;
     }
 
     .main_banner {
         height: 45vh;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .main_banner_bottom_text {
         font-size: 14px;
+        padding: 0 40px;
     }
 
     .section_prew_pictures {
-        padding: 60px 0 80px;
+        padding: 50px 0 50px;
     }
 
     .section_special_offers {
@@ -1550,6 +1563,50 @@ button.special_offers_box:hover {
 
     .section_gallery_mixed {
         margin: 60px 0;
+    }
+
+    .main_banner_logo {
+        max-width: 290px;
+    }
+
+    .our_services {
+        margin-bottom: 80px;
+    }
+
+    .section_why_us {
+        padding: 80px 0 50px;
+    }
+
+    .section_service {
+        padding: 70px 0;
+    }
+
+    .section_swap_category {
+        top: 77px;
+        z-index: 70;
+    }
+
+    .price_head_wapper {
+        margin-top: 0;
+        top: 123px;
+    }
+
+    .section_about {
+        margin: 40px 0 40px;
+    }
+
+    .contact_call_button {
+        max-width: 100%;
+        order: -1;
+        margin: 0 0 20px 0;
+    }
+
+    .contact_info_box {
+        padding-top: 35px;
+    }
+
+    .main_banner:before {
+        background: linear-gradient(rgb(0 0 0 / 55%), rgba(0, 0, 0, 100%));
     }
 
 }

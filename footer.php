@@ -31,14 +31,19 @@
                 <li class="footer_title">Посилання</li>
                 <li class="footer_item"><a class="footer_link"
                         href="<?php echo get_permalink(get_page_by_title('home')->ID); ?>">Головна</a></li>
-                <li class="footer_item"><a class="footer_link" href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>">Послуги</a>
+                <li class="footer_item"><a class="footer_link"
+                        href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>">Послуги</a>
                 </li>
-                <li class="footer_item"><a class="footer_link" href="<?php echo get_permalink(get_page_by_title('price')->ID); ?>">Прайси</a>
+                <li class="footer_item"><a class="footer_link"
+                        href="<?php echo get_permalink(get_page_by_title('price')->ID); ?>">Прайси</a>
                 </li>
-                <li class="footer_item"><a class="footer_link" href="<?php echo get_permalink(get_page_by_title('gallery')->ID); ?>">Галерея</a>
+                <li class="footer_item"><a class="footer_link"
+                        href="<?php echo get_permalink(get_page_by_title('gallery')->ID); ?>">Галерея</a>
                 </li>
-                <li class="footer_item"><a class="footer_link" href="<?php echo get_permalink(get_page_by_title('about')->ID); ?>">Про студію</a></li>
-                <li class="footer_item"><a class="footer_link" href="<?php echo get_permalink(get_page_by_title('actions')->ID); ?>">Спецпропозиції</a></li>
+                <li class="footer_item"><a class="footer_link"
+                        href="<?php echo get_permalink(get_page_by_title('about')->ID); ?>">Про студію</a></li>
+                <li class="footer_item"><a class="footer_link"
+                        href="<?php echo get_permalink(get_page_by_title('actions')->ID); ?>">Спецпропозиції</a></li>
                 <li class="footer_item"><a class="footer_link"
                         href="<?php echo get_permalink(get_page_by_title('contact')->ID); ?>">Контакти</a></li>
             </ul>
@@ -105,4 +110,5 @@
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
