@@ -961,11 +961,14 @@ button.special_offers_box:hover {
 
 .swiper_about_img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .swiper-slide.swiper_about_slide {
     opacity: 0.5;
     transition: opacity 0.3s ease;
+    height: 450px;
 }
 
 .swiper-slide-active.swiper_about_slide {
@@ -1609,4 +1612,14 @@ button.special_offers_box:hover {
         background: linear-gradient(rgb(0 0 0 / 55%), rgba(0, 0, 0, 100%));
     }
 
+    .swiper-slide.swiper_about_slide {
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 475px) {
+    .swiper-slide.swiper_about_slide {
+        height: 240px;
+    }
 }

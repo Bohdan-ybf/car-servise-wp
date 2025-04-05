@@ -51,15 +51,15 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                     <div class="price_warapper">
                         <div class="price_row">
                             <p class="price_name">Полірування</p>
-                            <span class="prices_services">12 000 грн</span>
+                            <span class="prices_services">- грн</span>
                         </div>
                         <div class="price_row">
                             <p class="price_name">Полірування</p>
-                            <span class="prices_services">12 000 грн</span>
+                            <span class="prices_services">- грн</span>
                         </div>
                         <div class="price_row">
                             <p class="price_name">Полірування</p>
-                            <span class="prices_services">12 000 грн</span>
+                            <span class="prices_services">- грн</span>
                         </div>
                     </div>
                 </div>
@@ -72,15 +72,15 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                         <div class="price_warapper">
                             <div class="price_row">
                                 <p class="price_name">Хімчистка салону авто з розбором або без</p>
-                                <span class="prices_services">12 000 грн</span>
+                                <span class="prices_services">- грн</span>
                             </div>
                             <div class="price_row">
                                 <p class="price_name">Хімчистка салону авто з розбором або без</p>
-                                <span class="prices_services">12 000 грн</span>
+                                <span class="prices_services">- грн</span>
                             </div>
                             <div class="price_row">
                                 <p class="price_name">Хімчистка салону авто з розбором або без</p>
-                                <span class="prices_services">12 000 грн</span>
+                                <span class="prices_services">- грн</span>
                             </div>
                         </div>
                     </div>

@@ -40,7 +40,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                         нам
                         для
                         досягнення ваших цілей!</p>
-                    <a class="our_services_btn" href="./pages/services/catalog.html">Всі послуги
+                    <a class="our_services_btn" href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>">Всі послуги
                         <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -302,20 +302,44 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <div class="swiper swiperAbout">
             <div class="swiper-wrapper" id="light-gallery-show">
                 <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/about.JPG">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/about.JPG" />
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/about.JPG">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/about.JPG" />
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon16.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon16.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/about.JPG">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/about.JPG" />
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon9.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon9.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/about.JPG">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/about.JPG" />
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon15.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon15.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon13.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon13.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon8.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon8.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon18.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon18.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg" />
                 </a>
             </div>
             <div class="swiper-button-next"></div>
