@@ -41,3 +41,47 @@ var swiper = new Swiper(".ourServiceSlider", {
 
 
   lightGallery(document.getElementById('gallery-mixed-content-demo'));
+  lightGallery(document.getElementById('gallery-mixed-content-demo-2'));
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const counters = document.querySelectorAll('.advantages_number');
+    let hasAnimated = false;
+
+    function animateCounters() {
+        if (hasAnimated) return; // Профилактика повторного вызова
+
+        counters.forEach(counter => {
+            const target = +counter.innerText.replace(/\s/g, '').replace('+', ''); // Получаем целевое число, убирая пробелы и знак +
+
+            let current = 0;
+            const increment = Math.ceil(target / 100); // Задаём шаг инкремента (зависит от желаемой скорости)
+
+            const interval = setInterval(() => {
+                if (current < target) {
+                    current += increment;
+                    counter.innerText = current.toLocaleString() + '+'; // Форматируем число и добавляем '+'
+                } else {
+                    counter.innerText = target.toLocaleString() + '+'; // Устанавливаем финальное значение
+                    clearInterval(interval); // Останавливаем таймер
+                }
+            }, 30); // Интервал обновления (в миллисекундах)
+        });
+
+        hasAnimated = true; // Устанавливаем флаг, что анимация уже была выполнена
+    }
+
+    // Проверяем прокрутку
+    function onScroll() {
+        const section = document.getElementById('advantagesCount');
+        const sectionTop = section.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (sectionTop <= windowHeight) {
+            animateCounters();
+            window.removeEventListener('scroll', onScroll); // Удаляем слушатель после анимации
+        }
+    }
+
+    window.addEventListener('scroll', onScroll);
+});

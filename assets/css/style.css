@@ -940,10 +940,11 @@ button.special_offers_box:hover {
 }
 
 .advantages_number {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 900;
     opacity: 50%;
     line-height: normal;
+    transition: all 0.5s;
     border-bottom: 1px solid #125DF0;
 }
 

@@ -35,39 +35,9 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <div class="swiper swiperAbout">
                     <div class="swiper-wrapper" id="light-gallery-show">
                         <a class="swiper-slide swiper_about_slide"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg">
-                            <img class="swiper_about_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg" />
-                        </a>
-                        <a class="swiper-slide swiper_about_slide"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon16.jpg">
-                            <img class="swiper_about_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon16.jpg" />
-                        </a>
-                        <a class="swiper-slide swiper_about_slide"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon9.jpg">
-                            <img class="swiper_about_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon9.jpg" />
-                        </a>
-                        <a class="swiper-slide swiper_about_slide"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon15.jpg">
-                            <img class="swiper_about_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon15.jpg" />
-                        </a>
-                        <a class="swiper-slide swiper_about_slide"
                             href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg">
                             <img class="swiper_about_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg" />
-                        </a>
-                        <a class="swiper-slide swiper_about_slide"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon13.jpg">
-                            <img class="swiper_about_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon13.jpg" />
-                        </a>
-                        <a class="swiper-slide swiper_about_slide"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon8.jpg">
-                            <img class="swiper_about_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon8.jpg" />
                         </a>
                         <a class="swiper-slide swiper_about_slide"
                             href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg">
@@ -75,14 +45,24 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                 src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg" />
                         </a>
                         <a class="swiper-slide swiper_about_slide"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon18.jpg">
+                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon3.jpg">
                             <img class="swiper_about_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon18.jpg" />
+                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon3.jpg" />
+                        </a>
+                        <a class="swiper-slide swiper_about_slide"
+                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg">
+                            <img class="swiper_about_img"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg" />
                         </a>
                         <a class="swiper-slide swiper_about_slide"
                             href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg">
                             <img class="swiper_about_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg" />
+                        </a>
+                        <a class="swiper-slide swiper_about_slide"
+                            href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon6.jpg">
+                            <img class="swiper_about_img"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon6.jpg" />
                         </a>
                     </div>
                     <div class="swiper-button-next"></div>
@@ -92,33 +72,33 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         </div>
     </section>
 
-    <section class="section_advantages">
+    <section class="section_advantages" id="advantagesCount">
         <div class="container">
             <p class="advantages_title">Невеличка інформація про нас</p>
             <div class="advantages_wrapper">
                 <div class="advantages_box">
-                    <span class="advantages_number">01</span>
-                    <p class="advantages_text">Тут буде ваш текст Тут буде ваш текст</p>
+                    <span class="advantages_number">11 000+</span>
+                    <p class="advantages_text">Хімчисток салонів авто</p>
                 </div>
                 <div class="advantages_box">
-                    <span class="advantages_number">02</span>
-                    <p class="advantages_text">Тут буде ваш текст Тут буде ваш текст</p>
+                    <span class="advantages_number">2 000+</span>
+                    <p class="advantages_text">Відполірованих авто</p>
                 </div>
                 <div class="advantages_box">
-                    <span class="advantages_number">03</span>
-                    <p class="advantages_text">Тут буде ваш текст Тут буде ваш текст</p>
+                    <span class="advantages_number">500+</span>
+                    <p class="advantages_text">Відреставрованих салонів авто</p>
                 </div>
                 <div class="advantages_box">
-                    <span class="advantages_number">04</span>
-                    <p class="advantages_text">Тут буде ваш текст Тут буде ваш текст</p>
+                    <span class="advantages_number">400+</span>
+                    <p class="advantages_text">Керамічних покриттів на кузові авто</p>
                 </div>
                 <div class="advantages_box">
-                    <span class="advantages_number">05</span>
-                    <p class="advantages_text">Тут буде ваш текст Тут буде ваш текст</p>
+                    <span class="advantages_number">250+</span>
+                    <p class="advantages_text">Захищених авто антигравійною плівкою</p>
                 </div>
                 <div class="advantages_box">
-                    <span class="advantages_number">06</span>
-                    <p class="advantages_text">Тут буде ваш текст Тут буде ваш текст</p>
+                    <span class="advantages_number">350+</span>
+                    <p class="advantages_text">Затонованих авто</p>
                 </div>
 
             </div>
@@ -129,7 +109,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <a href="<?php echo $address_link; ?>" target="_blank"><img
                 src="<?php bloginfo('template_url'); ?>/assets/images/map.jpg" alt=""></a>
     </section>
-
 
 
 </main>

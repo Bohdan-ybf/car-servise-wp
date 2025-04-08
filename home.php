@@ -302,44 +302,28 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <div class="swiper swiperAbout">
             <div class="swiper-wrapper" id="light-gallery-show">
                 <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg" />
-                </a>
-                <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon16.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon16.jpg" />
-                </a>
-                <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon9.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon9.jpg" />
-                </a>
-                <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon15.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon15.jpg" />
-                </a>
-                <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg">
                     <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg" />
-                </a>
-                <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon13.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon13.jpg" />
-                </a>
-                <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon8.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon8.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg">
                     <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
-                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon18.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon18.jpg" />
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon3.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon3.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg">
                     <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg" />
+                </a>
+                <a class="swiper-slide swiper_about_slide"
+                    href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon6.jpg">
+                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon6.jpg" />
                 </a>
             </div>
             <div class="swiper-button-next"></div>
