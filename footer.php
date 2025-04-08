@@ -102,7 +102,7 @@
                 </div>
             </ul>
         </div>
-        <p class="footer_copyright">Detailing car service © 2025. Всі права захищені.</p>
+        <p class="footer_copyright">Detailing car service © <?php echo date('Y'); ?>. Всі права захищені.</p>
     </div>
 </footer>
 </div>
@@ -112,3 +112,4 @@
 </body>
 
 </html>
+
