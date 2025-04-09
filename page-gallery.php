@@ -54,90 +54,17 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="gallery_mixed_wrapper" id="gallery-mixed-content-demo-2">
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s1.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s1.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s2.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s2.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s3.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s3.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s4.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s4.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s5.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s5.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s6.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s6.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s7.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s7.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s8.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s8.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s9.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s9.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s10.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s10.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s11.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s11.jpeg" />
-                        </a>
-
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s12.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s12.jpeg" />
-                        </a>
-                        <a class="gallery_mixed_item"
-                            href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s13.jpeg">
-                            <img class="gallery_mixed_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s13.jpeg" />
-                        </a>
+                    <?php for ($i = 1; $i <= 13; $i++): ?>
+                            <a class="gallery_mixed_item"
+                                href="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s<?php echo $i; ?>.jpeg">
+                                <img class="gallery_mixed_img"
+                                    src="<?php bloginfo('template_url'); ?>/assets/images/gallery/salon/s<?php echo $i; ?>.jpeg" />
+                            </a>
+                        <?php endfor; ?>
                     </div>
                 </div>
             </div>
     </section>
-
-
-
-
 
 
 </main>

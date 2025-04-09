@@ -1153,9 +1153,10 @@ button.special_offers_box:hover {
 }
 
 .service_title {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    line-height: normal;
 }
 
 .service_text {
