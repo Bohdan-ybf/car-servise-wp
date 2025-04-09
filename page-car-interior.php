@@ -21,8 +21,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <img src="<?php bloginfo('template_url'); ?>/assets/images/serv-11.jpg" alt="">
         <div class="main_banner_info">
             <h1 class="main_banner_text">Послуги</h1>
-            <!--  <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
-                                очікуєте.</p>  -->
         </div>
     </section>
 
@@ -51,7 +49,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             alt="">
                     </div>
                     <div class="service_box service_box_info">
-                        <p class="service_title">Хімчистка</p>
+                        <p class="service_title">Хімчистка салона авто</p>
                         <p class="service_text">Професійна хімчистка салону авто. <br>
                             Оновимо ваш салон до ідеального стану! Видалимо пил, плями, запахи, шерсть та мікроби.
                             Чистимо сидіння, стелю, килимки, багажник і всі важкодоступні місця. Працюємо з тканиною,
@@ -74,10 +72,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                 <p class="service_price"><?php echo $bis_cleaning_salon; ?></p>
                             </div>
                             <div class="service_price_box">
-                                <p class="service_price_name">Преміум</p>
-                                <p class="service_price"><?php echo $prem_cleaning_salon; ?></p>
-                            </div>
-                            <div class="service_price_box">
                                 <p class="service_price_name">Позашляховик</p>
                                 <p class="service_price"><?php echo $cros_cleaning_salon; ?></p>
                             </div>
@@ -89,42 +83,26 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
             </div>
         </section>
 
-        <section class="section_service section_service_even" id="restavratsiya">
+        <section class="section_service section_service_even" id="khimchystkaSidin">
             <div class="container">
                 <div class="service_wrapper">
                     <div class="service_box service_box_img">
-                        <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-13.jpg"
+                        <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-21.jpg"
                             alt="">
                     </div>
                     <div class="service_box service_box_info">
-                        <p class="service_title">Реставрація шкіри</p>
-                        <p class="service_text">Реставрація шкіряних елементів салону авто — це комплекс робіт із
-                            відновлення вигляду та структури шкіри. Ми усуваємо потертості, тріщини, порізи та зміни
-                            кольору, використовуючи професійні засоби для очищення, фарбування та відновлення текстури.
-                            За бажанням наносимо захисне покриття, яке подовжує термін служби шкіряних елементів і
-                            запобігає їх подальшому зносу. Це повертає салону доглянутий вигляд і комфорт.</p>
+                        <p class="service_title">Хімчистка сидінь</p>
+                        <p class="service_text">Хімчистка сидінь — це процес глибокого очищення оббивки автомобільних
+                            сидінь за допомогою спеціалізованих миючих засобів та обладнання. Під час хімчистки
+                            видаляються забруднення, плями, пил та неприємні запахи, що накопичилися в тканині або
+                            шкірі. Ця процедура не лише покращує зовнішній вигляд інтер'єру, а й сприяє створенню
+                            здорової атмосфери в автомобілі, підвищуючи комфорт під час поїздок.</p>
+
                         <p class="service_sub_text">Вартість:</p>
                         <div class="service_price_wrapepr">
 
                             <div class="service_price_box">
-                                <p class="service_price_name">Малий</p>
-                                <p class="service_price"><?php echo $sm_skin_restoration; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Середній</p>
-                                <p class="service_price"><?php echo $md_skin_restoration; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Бізнес</p>
-                                <p class="service_price"><?php echo $bis_skin_restoration; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Преміум</p>
-                                <p class="service_price"><?php echo $prem_skin_restoration; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price"><?php echo $cros_skin_restoration; ?></p>
+                                <p class="service_price"><?php echo $sm_cleaning_seats; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -134,7 +112,37 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
             </div>
         </section>
 
-        <section class="section_service section_service_odd" id="tonuvannya">
+        <section class="section_service section_service_odd" id="restavratziyaSkiny">
+            <div class="container">
+                <div class="service_wrapper">
+                    <div class="service_box service_box_img">
+                        <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-22.jpg"
+                            alt="">
+                    </div>
+                    <div class="service_box service_box_info">
+                        <p class="service_title">Реставрація шкіряного салону</p>
+                        <p class="service_text">Реставрація шкіряного салону — це процес відновлення і підтримки
+                            шкіряної оббивки автомобільних сидінь та інших елементів інтер'єру. Він включає в себе
+                            очищення, усунення потертостей, тріщин і дефектів, а також нанесення засобів для догляду, що
+                            відновлюють природний відтінок і еластичність шкіри. Реставрація допомагає повернути
+                            шкіряним елементам первісний вигляд, забезпечуючи не лише естетичний аспект, а й продовжуючи
+                            термін служби матеріалу. Це ідеальне рішення для тих, хто хоче зберегти свій автомобіль в
+                            сучасному і привабливому стані.</p>
+
+                        <p class="service_sub_text">Вартість:</p>
+                        <div class="service_price_wrapepr">
+                            <div class="service_price_box">
+                                <p class="service_price"><?php echo $sm_leather_interior; ?></p>
+                            </div>
+                        </div>
+                        <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
+                            target="_blank">Замовити</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_service section_service_even" id="tonuvannya">
             <div class="container">
                 <div class="service_wrapper">
                     <div class="service_box service_box_img">
@@ -152,24 +160,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                         <div class="service_price_wrapepr">
 
                             <div class="service_price_box">
-                                <p class="service_price_name">Малий</p>
                                 <p class="service_price"><?php echo $sm_drowning; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Середній</p>
-                                <p class="service_price"><?php echo $md_drowning; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Бізнес</p>
-                                <p class="service_price"><?php echo $bis_drowning; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Преміум</p>
-                                <p class="service_price"><?php echo $prem_drowning; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price"><?php echo $cros_drowning; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -179,7 +170,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
             </div>
         </section>
 
-        <section class="section_service section_service_even" id="zakhysnykhPokrytta">
+        <section class="section_service section_service_odd" id="zakhysnykhPokrytta">
             <div class="container">
                 <div class="service_wrapper">
                     <div class="service_box service_box_img">
@@ -187,7 +178,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             alt="">
                     </div>
                     <div class="service_box service_box_info">
-                        <p class="service_title">Захисні покриття салон</p>
+                        <p class="service_title">Нанесення керамічного покриття шкіряний салон</p>
                         <p class="service_text">Керамічне покриття шкіряних елементів — це захисне покриття, яке створює
                             на поверхні шкіри невидимий бар’єр, що відштовхує вологу, бруд і масла. Воно запобігає
                             передчасному зносу, появі плям і розтріскуванню, зберігаючи природну м’якість і текстуру
@@ -197,24 +188,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                         <div class="service_price_wrapepr">
 
                             <div class="service_price_box">
-                                <p class="service_price_name">Малий</p>
                                 <p class="service_price"><?php echo $sm_dry_coating; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Середній</p>
-                                <p class="service_price"><?php echo $md_dry_coating; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Бізнес</p>
-                                <p class="service_price"><?php echo $bis_dry_coating; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Преміум</p>
-                                <p class="service_price"><?php echo $prem_dry_coating; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price"><?php echo $cros_dry_coating; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -224,52 +198,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
             </div>
         </section>
 
-        <!--
-        <section class="section_service section_service_odd" id="restavratsiyaSalony">
-            <div class="container">
-                <div class="service_wrapper">
-                    <div class="service_box service_box_img">
-                        <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-17.jpg" alt="">
-                    </div>
-                    <div class="service_box service_box_info">
-                        <p class="service_title">Реставрація та захис глянцевих єлементів салону</p>
-                        <p class="service_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quos
-                            libero nostrum vero exercitationem minima expedita, maxime quae debitis harum iusto.
-                            Asperiores commodi totam eveniet libero doloremque quae iusto quibusdam quasi quis nisi,
-                            illum sunt sint odio quia aut animi, numquam adipisci nostrum? Iure nam explicabo ipsam
-                            consequuntur eos alias?</p>
-                        <p class="service_sub_text">Вартість:</p>
-                        <div class="service_price_wrapepr">
-
-                            <div class="service_price_box">
-                                <p class="service_price_name">Малий</p>
-                                <p class="service_price"><?php echo $sm_zakhist_glossy; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Середній</p>
-                                <p class="service_price"><?php echo $md_zakhist_glossy; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Бізнес</p>
-                                <p class="service_price"><?php echo $bis_zakhist_glossy; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Преміум</p>
-                                <p class="service_price"><?php echo $prem_zakhist_glossy; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price"><?php echo $cros_zakhist_glossy; ?></p>
-                            </div>
-                        </div>
-                        <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50" target="_blank">Замовити</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
-
-        <section class="section_service section_service_odd" id="ozonatsiya">
+        <section class="section_service section_service_even" id="ozonatsiya">
             <div class="container">
                 <div class="service_wrapper">
                     <div class="service_box service_box_img">
@@ -285,26 +214,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             Результат – свіже, стерильне повітря та комфорт для кожної поїздки.</p>
                         <p class="service_sub_text">Вартість:</p>
                         <div class="service_price_wrapepr">
-
                             <div class="service_price_box">
-                                <p class="service_price_name">Малий</p>
                                 <p class="service_price"><?php echo $sm_ozonation; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Середній</p>
-                                <p class="service_price"><?php echo $md_ozonation; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Бізнес</p>
-                                <p class="service_price"><?php echo $bis_ozonation; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Преміум</p>
-                                <p class="service_price"><?php echo $prem_ozonation; ?></p>
-                            </div>
-                            <div class="service_price_box">
-                                <p class="service_price_name">Позашляховик</p>
-                                <p class="service_price"><?php echo $cros_ozonation; ?></p>
                             </div>
                         </div>
                         <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -315,18 +226,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         </section>
     </div>
 
-    <!-- ============================= -->
-    <!--  <section class="section_service_info">
-            <div class="container">
-                <ul class="service_info_ul">
-                    <li class="service_info_list">Малий - Пояснення цій послузі...</li>
-                    <li class="service_info_list">Середній - Пояснення цій послузі...</li>
-                    <li class="service_info_list">Бізнес - Пояснення цій послузі...</li>
-                    <li class="service_info_list">Позашляховик - Пояснення цій послузі...</li>
-                </ul>
-            </div>
-        </section>
--->
 
     <section class="section_why_us">
         <div class="container">

@@ -20,8 +20,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <img src="<?php bloginfo('template_url'); ?>/assets/images/gallery/cuzov/show-pic12.JPG" alt="">
         <div class="main_banner_info">
             <h1 class="main_banner_text">Галерея</h1>
-            <!--  <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
-                                очікуєте.</p>  -->
         </div>
     </section>
 

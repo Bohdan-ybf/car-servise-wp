@@ -16,25 +16,14 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
 <main class="main">
     <section class="main_banner actions_banner">
         <img src="<?php bloginfo('template_url'); ?>/assets/images/action-bg.jpg" alt="">
-        <!-- <img src="./assets/images/20789.JPG" alt=""> -->
         <div class="main_banner_info">
-            <!-- <h1 class="main_banner_title"><span>D</span>etailing  <span>C</span>ar <span>S</span>ervice</h1>-->
-
             <h1 class="main_banner_text">Спецпропозиції</h1>
-            <!--  <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
-                                очікуєте.</p>  -->
         </div>
     </section>
 
     <section class="section_special_offers">
         <div class="container">
-            <p class="special_offers_title special_offers_title_cust">Наша команда представляє не лише найкращий сервіс,
-                але
-                та дбати про гаманці наших клієнтів</p>
-            <!--  <p class="special_offers_text">Наша команда представляє не лише найкращий сервіс, але
-                        та дбати про гаманці наших клієнтів</p>  -->
-
-
+            <p class="special_offers_title special_offers_title_cust">Наша команда представляє не лише найкращий сервіс, але та дбати про гаманці наших клієнтів</p>
 
             <div class="special_offers_wrapper">
                 <button type="button" class="special_offers_box" data-bs-toggle="modal" data-bs-target="#modal1">

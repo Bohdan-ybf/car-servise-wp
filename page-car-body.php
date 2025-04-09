@@ -18,8 +18,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
     <img src="<?php bloginfo('template_url'); ?>/assets/images/car-body-bg.jpg" alt="">
     <div class="main_banner_info">
         <h1 class="main_banner_text">Послуги</h1>
-        <!--  <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
-                    очікуєте.</p>  -->
     </div>
 </section>
 
@@ -45,7 +43,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-3.jpeg" alt="">
             </div>
             <div class="service_box service_box_info">
-                <p class="service_title">Полірування</p>
+                <p class="service_title">Полірування кузова авто</p>
                 <p class="service_text">Ми використовуємо тільки професійні матеріали й сучасне обладнання, а також
                     підбираємо тип полірування індивідуально для кожного авто: корекційне, відновлююче, глибоке,тощо.
                     Подаруйте своєму авто нове життя – запишіться на полірування вже сьогодні!</p>
@@ -53,24 +51,58 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <div class="service_price_wrapepr">
 
                     <div class="service_price_box">
-                        <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_polishing; ?></p>
                     </div>
+                </div>
+                <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
+                    target="_blank">Замовити</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_service section_service_even" id="clearBitum">
+    <div class="container">
+        <div class="service_wrapper">
+            <div class="service_box service_box_img">
+                <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-19.jpg" alt="">
+            </div>
+            <div class="service_box service_box_info">
+                <p class="service_title">Чистка кузова від бітуму та інших забруднень</p>
+                <p class="service_text">Чистка кузова від бітуму та інших забруднень — це процедура, яка видаляє важкі
+                    забруднення, що шкодять лакофарбовому покриттю. Використовуються спеціальні засоби та щітки для
+                    ефективного і безпечного очищення, що допомагає підтримувати авто в ідеальному стані.</p>
+                <p class="service_sub_text">Вартість:</p>
+                <div class="service_price_wrapepr">
                     <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_polishing; ?></p>
+                        <p class="service_price"><?php echo $sm_cleaning_bitumen; ?></p>
                     </div>
+                   
+                </div>
+                <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
+                    target="_blank">Замовити</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_service section_service_odd" id="strongHoney">
+    <div class="container">
+        <div class="service_wrapper">
+            <div class="service_box service_box_img">
+                <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-20.jpg" alt="">
+            </div>
+            <div class="service_box service_box_info">
+                <p class="service_title">Нанесення твердого воску з ощищенням кузову</p>
+                <p class="service_text">Нанесення твердого воску з очищенням кузова — це процедура, що включає спочатку
+                    видалення забруднень з поверхні авто, а потім нанесення захисного твердого воску. Воск створює
+                    надійний шар, який захищає лакофарбове покриття від зовнішніх впливів, надає блиск і полегшує
+                    подальше очищення. Це допомагає зберегти автомобіль у відмінному стані та продовжити термін служби
+                    покриття.</p>
+                <p class="service_sub_text">Вартість:</p>
+                <div class="service_price_wrapepr">
                     <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_polishing; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_polishing; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_polishing; ?></p>
+                        <p class="service_price"><?php echo $sm_hard_wax; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -87,7 +119,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-9.jpg" alt="">
             </div>
             <div class="service_box service_box_info">
-                <p class="service_title">Антигравійна плівка</p>
+                <p class="service_title">Оклейка антигравійною плівкою фронтальної частини авто</p>
                 <p class="service_text">Антигравійна плівка захистить кузов вашого авто від подряпин,сколів,
                     ультрафіолетового випромінювання, та хімічних речовин. <br>
                     Плівка майже не помітна на кузові і збереже ваше авто в ідеальному стані на роки. <br>
@@ -95,26 +127,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                     Захист починається з першого кілометра – замовляй антигравійне оклеювання вже зараз!</p>
                 <p class="service_sub_text">Вартість:</p>
                 <div class="service_price_wrapepr">
-
                     <div class="service_price_box">
-                        <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_body_wrapping; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_body_wrapping; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_body_wrapping; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_body_wrapping; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_body_wrapping; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -131,33 +145,15 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-4.jpeg" alt="">
             </div>
             <div class="service_box service_box_info">
-                <p class="service_title">Мийка</p>
+                <p class="service_title">Мийка авто 3 фази (ручна) з вологим прибиранням</p>
                 <p class="service_text">Детейлінг мийка – ідеальна чистота в кожній деталі! <br>
                     Комплексне очищення кузова, коліс, арок, з делікатним підходом до кожного елементу. <br>
                     Піна, ручна мийка, сушка без розводів – жодної подряпини! <br>
                     Авто виглядає як нове – чистота, блиск і турбота на рівні преміум.</p>
                 <p class="service_sub_text">Вартість:</p>
                 <div class="service_price_wrapepr">
-
                     <div class="service_price_box">
-                        <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_details; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_details; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_details; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_details; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_details; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -174,7 +170,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-7.jpg" alt="">
             </div>
             <div class="service_box service_box_info">
-                <p class="service_title">Мийка двигуна</p>
+                <p class="service_title">Мийка підкапотного простору</p>
                 <p class="service_text">Акуратно очищаємо підкапотний простір від бруду, пилу та слідів технічних рідин.
                     Безпечна технологія без ризику для електроніки та контактів.
                     <br>
@@ -182,26 +178,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 </p>
                 <p class="service_sub_text">Вартість:</p>
                 <div class="service_price_wrapepr">
-
                     <div class="service_price_box">
-                        <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_under_engine; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_under_engine; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_under_engine; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_under_engine; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_under_engine; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -218,33 +196,16 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-8.jpg" alt="">
             </div>
             <div class="service_box service_box_info">
-                <p class="service_title">Антидощ</p>
+                <p class="service_title">Нанесення покриття антидощ</p>
                 <p class="service_text">Антидощ — це спеціальне водовідштовхувальне покриття для скла автомобіля або
                     інших поверхонь. Воно створює захисний шар, що зменшує прилипання води, забезпечуючи кращу видимість
                     під час дощу. Краплі води швидко стікають або здуваються вітром, що покращує безпеку та комфорт
                     водіння.</p>
                 <p class="service_sub_text">Вартість:</p>
                 <div class="service_price_wrapepr">
-
                     <div class="service_price_box">
                         <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_anti_rain; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_anti_rain; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_anti_rain; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_anti_rain; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_anti_rain; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -270,24 +231,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <div class="service_price_wrapepr">
 
                     <div class="service_price_box">
-                        <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_antichrome; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_antichrome; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_antichrome; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_antichrome; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_antichrome; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -304,7 +248,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-15.jpg" alt="">
             </div>
             <div class="service_box service_box_info">
-                <p class="service_title">Реставрація оптики</p>
+                <p class="service_title">Полірування оптики з її оклейкою</p>
                 <p class="service_text">Відновлення оптики — це процес покращення прозорості та зовнішнього вигляду фар
                     автомобіля. Ми виконуємо механічне полірування, яке усуває подряпини, помутніння та жовтизну, а
                     потім захищаємо фари спеціальною захисною плівкою. Це не лише відновлює оптику, а й продовжує її
@@ -313,24 +257,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <div class="service_price_wrapepr">
 
                     <div class="service_price_box">
-                        <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_optics_restoration; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_optics_restoration; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_optics_restoration; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_optics_restoration; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_optics_restoration; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"
@@ -347,7 +274,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <img class="service_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-18.jpg" alt="">
             </div>
             <div class="service_box service_box_info">
-                <p class="service_title">Захисні покриття</p>
+                <p class="service_title">Нанесення керамічного покриття (кузов)</p>
                 <p class="service_text">Створює тверде, водовідштовхувальне покриття, яке захищає лак від подряпин,
                     хімії, слідів пташиного посліду,УФ-променів і бруду. <br>
                     Авто довше виглядає як нове, а миття займає менше часу. <br>
@@ -356,24 +283,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                 <div class="service_price_wrapepr">
 
                     <div class="service_price_box">
-                        <p class="service_price_name">Малий</p>
                         <p class="service_price"><?php echo $sm_protective_coatings; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Середній</p>
-                        <p class="service_price"><?php echo $md_protective_coatings; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Бізнес</p>
-                        <p class="service_price"><?php echo $bis_protective_coatings; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Преміум</p>
-                        <p class="service_price"><?php echo $prem_protective_coatings; ?></p>
-                    </div>
-                    <div class="service_price_box">
-                        <p class="service_price_name">Позашляховик</p>
-                        <p class="service_price"><?php echo $cros_protective_coatings; ?></p>
                     </div>
                 </div>
                 <a href="https://t.me/<?php echo $telegram; ?>" class="actions_modal_btn btn-w-50"

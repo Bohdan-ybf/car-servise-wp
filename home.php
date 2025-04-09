@@ -18,7 +18,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <img src="https://tuning.themerex.net/wp-content/uploads/2024/07/img-002-copyright.jpg" alt="">
         <!-- <img src="<?php bloginfo('template_url'); ?>/assets/images/20789.JPG" alt=""> -->
         <div class="main_banner_info">
-            <!-- <h1 class="main_banner_title"><span>D</span>etailing  <span>C</span>ar <span>S</span>ervice</h1>-->
             <img class="main_banner_logo" src="<?php bloginfo('template_url'); ?>/assets/images/logo-service.png"
                 alt="">
             <h1 class="main_banner_text">Догляд за авто доступний кожному</h1>
@@ -40,7 +39,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                         нам
                         для
                         досягнення ваших цілей!</p>
-                    <a class="our_services_btn" href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>">Всі послуги
+                    <a class="our_services_btn"
+                        href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>">Всі послуги
                         <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -60,9 +60,15 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-14.jpg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Хімчистка</p>
-                                <p class="our_services_slide_info_text">Хімчистка салону авто з розбором або без
-                                </p>
+                                <p class="our_services_slide_info_title">Хімчистка салона авто</p>
+                            </div>
+                        </a>
+                        <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#khimchystkaSidin"
+                            class="swiper-slide our_services_slide">
+                            <img class="our_services_slide_img"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/serv-21.jpg" alt="">
+                            <div class="our_services_slide_info">
+                                <p class="our_services_slide_info_title">Хімчистка сидінь</p>
                             </div>
                         </a>
                         <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#poliruvannya"
@@ -70,10 +76,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-3.jpeg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Полірування
+                                <p class="our_services_slide_info_title">Полірування кузова авто
                                 </p>
-                                <p class="our_services_slide_info_text">Ідеальне рішення для повернення
-                                    автомобілю первісного вигляду</p>
                             </div>
                         </a>
                         <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#okleykaKuzova"
@@ -81,11 +85,8 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-9.jpg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Антигравійна плівка
+                                <p class="our_services_slide_info_title">Оклейка антигравійною плівкою
                                 </p>
-                                <p class="our_services_slide_info_text">Ефективний спосіб захисту автомобіля від
-                                    механічних пошкоджень, таких як подряпини, кам’яні відколи та інші негативні
-                                    впливи</p>
                             </div>
                         </a>
                         <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#deteylinhMyyka"
@@ -93,8 +94,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-4.jpeg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Мийка</p>
-                                <p class="our_services_slide_info_text">Професійне очищення авто</p>
+                                <p class="our_services_slide_info_title">Мийка авто 3 фази</p>
                             </div>
                         </a>
                         <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#myykaPidkapotnoho"
@@ -102,8 +102,7 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-7.jpg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Мийка двигуна</p>
-                                <p class="our_services_slide_info_text">Запорука довговічності двигуна</p>
+                                <p class="our_services_slide_info_title">Мийка підкапотного простору</p>
                             </div>
                         </a>
 
@@ -112,20 +111,33 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-18.jpg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Захисні покриття</p>
-                                <p class="our_services_slide_info_text">Ключовий етап для збереження ідеального
-                                    стану автомобіля</p>
+                                <p class="our_services_slide_info_title">Нанесення керамічного покриття (кузов)</p>
                             </div>
                         </a>
+                        <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#clearBitum"
+                            class="swiper-slide our_services_slide">
+                            <img class="our_services_slide_img"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/serv-19.jpg" alt="">
+                            <div class="our_services_slide_info">
+                                <p class="our_services_slide_info_title">Чистка кузова від бітуму та інших забруднень
+                                </p>
+                            </div>
+                        </a>
+                        <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#strongHoney"
+                            class="swiper-slide our_services_slide">
+                            <img class="our_services_slide_img"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/serv-20.jpg" alt="">
+                            <div class="our_services_slide_info">
+                                <p class="our_services_slide_info_title">Нанесення твердого воску з ощищенням кузову</p>
+                            </div>
+                        </a>
+
                         <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#antidosht"
                             class="swiper-slide our_services_slide">
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-8.jpg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Антидощ</p>
-                                <p class="our_services_slide_info_text">Спеціальне нанесення на лобове скло та
-                                    інші скляні поверхні автомобіля, яке забезпечує покращену видимість під час
-                                    дощу.</p>
+                                <p class="our_services_slide_info_title">Нанесення покриття антидощ</p>
                             </div>
                         </a>
 
@@ -135,8 +147,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-16.jpg" alt="">
                             <div class="our_services_slide_info">
                                 <p class="our_services_slide_info_title">Антихром</p>
-                                <p class="our_services_slide_info_text">Спеціальний покриття, яке застосовується
-                                    на автомобілях для зміни зовнішнього вигляду хромованих елементів</p>
                             </div>
                         </a>
                         <a href="<?php echo get_permalink(get_page_by_title('car-body')->ID); ?>#restavratsiyaOptyky"
@@ -144,33 +154,17 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-15.jpg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Реставрація оптики</p>
-                                <p class="our_services_slide_info_text">Процес відновлення прозорості та
-                                    зовнішнього вигляду фар, які з часом можуть втрачати свою ефективність через
-                                    вплив ультрафіолетового випромінювання, бруду, піску, камінців та інших
-                                    агресивних факторів</p>
+                                <p class="our_services_slide_info_title">Полірування оптики з її оклейкою</p>
                             </div>
                         </a>
 
-                        <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#restavratsiya"
-                            class="swiper-slide our_services_slide">
-                            <img class="our_services_slide_img"
-                                src="<?php bloginfo('template_url'); ?>/assets/images/serv-13.jpg" alt="">
-                            <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Реставрація шкіри</p>
-                                <p class="our_services_slide_info_text">Процес відновлення і підтримки якості
-                                    шкіряних виробів, таких як меблі, взуття, одяг, автомобільні салони та інші
-                                    аксесуари</p>
-                            </div>
-                        </a>
+
                         <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#tonuvannya"
                             class="swiper-slide our_services_slide">
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-12.jpg" alt="">
                             <div class="our_services_slide_info">
                                 <p class="our_services_slide_info_title">Тонування</p>
-                                <p class="our_services_slide_info_text">Забезпечення приватності та зменшити
-                                    вплив сонячного випромінювання на салон авто</p>
                             </div>
                         </a>
                         <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#zakhysnykhPokrytta"
@@ -178,34 +172,25 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-11.jpg" alt="">
                             <div class="our_services_slide_info">
-                                <p class="our_services_slide_info_title">Захисні покриття салон
+                                <p class="our_services_slide_info_title">Нанесення керамічного покриття шкіряний салон
                                 </p>
-                                <p class="our_services_slide_info_text">Процес, що забезпечує додатковий захист
-                                    матеріалів інтер'єру від зносу, бруду, забруднень і плям</p>
                             </div>
                         </a>
-                        <!--
-                                <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#restavratsiyaSalony"
-                                    class="swiper-slide our_services_slide">
-                                    <img class="our_services_slide_img" src="<?php bloginfo('template_url'); ?>/assets/images/serv-17.jpg" alt="">
-                                    <div class="our_services_slide_info">
-                                        <p class="our_services_slide_info_title">Реставрація та захис глянцевих
-                                            єлементів салону</p>
-                                        <p class="our_services_slide_info_text">Важливий процес, який допомагає
-                                            відновити первісний вигляд і захистити поверхні від пошкоджень, подряпин,
-                                            бруду і зносу</p>
-                                    </div>
-                                </a>
-                                -->
+                        <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#restavratziyaSkiny"
+                            class="swiper-slide our_services_slide">
+                            <img class="our_services_slide_img"
+                                src="<?php bloginfo('template_url'); ?>/assets/images/serv-22.jpg" alt="">
+                            <div class="our_services_slide_info">
+                                <p class="our_services_slide_info_title">Реставрація шкіряного салону
+                                </p>
+                            </div>
+                        </a>
                         <a href="<?php echo get_permalink(get_page_by_title('car-interior')->ID); ?>#ozonatsiya"
                             class="swiper-slide our_services_slide">
                             <img class="our_services_slide_img"
                                 src="<?php bloginfo('template_url'); ?>/assets/images/serv-10.jpg" alt="">
                             <div class="our_services_slide_info">
                                 <p class="our_services_slide_info_title">Озонація</p>
-                                <p class="our_services_slide_info_text">Процес обробки приміщень або автомобілів
-                                    озоном з метою дезінфекції, очищення повітря та усунення неприємних запахів
-                                </p>
                             </div>
                         </a>
                     </div>
@@ -303,27 +288,33 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
             <div class="swiper-wrapper" id="light-gallery-show">
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg" />
+                    <img class="swiper_about_img"
+                        src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon1.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg" />
+                    <img class="swiper_about_img"
+                        src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon2.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon3.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon3.jpg" />
+                    <img class="swiper_about_img"
+                        src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon3.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg" />
+                    <img class="swiper_about_img"
+                        src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon4.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg" />
+                    <img class="swiper_about_img"
+                        src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon5.jpg" />
                 </a>
                 <a class="swiper-slide swiper_about_slide"
                     href="<?php bloginfo('template_url'); ?>/assets/images/salon/salon6.jpg">
-                    <img class="swiper_about_img" src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon6.jpg" />
+                    <img class="swiper_about_img"
+                        src="<?php bloginfo('template_url'); ?>/assets/images/salon/salon6.jpg" />
                 </a>
             </div>
             <div class="swiper-button-next"></div>

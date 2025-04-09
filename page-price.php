@@ -21,8 +21,6 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
         <img src="<?php bloginfo('template_url'); ?>/assets/images/gallery-bg.jpg" alt="">
         <div class="main_banner_info">
             <h1 class="main_banner_text">Прайси</h1>
-            <!--  <p class="main_banner_bottom_text">Ми прагнемо завоювати вашу довіру, надаючи досвід та ціну, яку ви
-                                очікуєте.</p>  -->
         </div>
     </section>
 
@@ -50,53 +48,46 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                     </div>
                     <div class="price_warapper">
                         <div class="price_row">
-                            <p class="price_name">1- Мийка авто 3 фази (ручна) з вологим прибиранням</p>
-                            <span class="prices_services">1000 грн</span>
+                            <p class="price_name">Мийка авто 3 фази (ручна) з вологим прибиранням</p>
+                            <span class="prices_services"><?php echo $sm_details; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">2- Мийка підкапотного простору</p>
-                            <span class="prices_services">800 грн</span>
+                            <p class="price_name">Мийка підкапотного простору</p>
+                            <span class="prices_services"><?php echo $sm_under_engine; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">3- Чистка кузова від бітуму та інших забруднень</p>
-                            <span class="prices_services">1200 грн</span>
+                            <p class="price_name">Чистка кузова від бітуму та інших забруднень</p>
+                            <span class="prices_services"><?php echo $sm_cleaning_bitumen; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">4- Нанесення твердого воску з ощищенням кузову</p>
-                            <span class="prices_services">1500 грн</span>
+                            <p class="price_name">Нанесення твердого воску з ощищенням кузову</p>
+                            <span class="prices_services"><?php echo $sm_hard_wax; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">5- Нанесення керамічного покриття (кузов)</p>
-                            <span class="prices_services">9000 грн</span>
+                            <p class="price_name">Нанесення керамічного покриття (кузов)</p>
+                            <span class="prices_services"><?php echo $sm_protective_coatings; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">6- Нанесення покриття антидощ</p>
-                            <span class="prices_services">1500 грн</span>
+                            <p class="price_name">Нанесення покриття антидощ</p>
+                            <span class="prices_services"><?php echo $sm_anti_rain; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">7- Полірування кузова авто</p>
-                            <span class="prices_services">7000 - 11000 грн</span>
+                            <p class="price_name">Полірування кузова авто</p>
+                            <span class="prices_services"><?php echo $sm_polishing; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">8- Полірування оптики з її оклейкою</p>
-                            <span class="prices_services">3000 - 3500 грн</span>
+                            <p class="price_name">Полірування оптики з її оклейкою</p>
+                            <span class="prices_services"><?php echo $sm_optics_restoration; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">9- Оклейка антигравійною плівкою фронтальної частини авто</p>
-                            <span class="prices_services">40000 - 50000 грн</span>
+                            <p class="price_name">Оклейка антигравійною плівкою фронтальної частини авто</p>
+                            <span class="prices_services"><?php echo $sm_body_wrapping; ?></span>
                         </div>
                         <div class="price_row">
-                            <p class="price_name">10- Хімчистка авто</p>
-                            <span class="prices_services">Малий 4000 грн | Середній 4300 грн  | Бізнес 4700 грн | Позашляховик 5000 грн </span>
+                            <p class="price_name">Антихром</p>
+                            <span class="prices_services"><?php echo $sm_antichrome; ?></span>
                         </div>
-                        <div class="price_row">
-                            <p class="price_name">11- Хімчистка сидінь</p>
-                            <span class="prices_services">2000 грн</span>
-                        </div>
-                        <div class="price_row">
-                            <p class="price_name">12- Озонація</p>
-                            <span class="prices_services">500 грн</span>
-                        </div>
+
                     </div>
                 </div>
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -107,20 +98,33 @@ global $phone, $phone_show, $instagram, $telegram, $viber, $address_name, $addre
                         </div>
                         <div class="price_warapper">
                             <div class="price_row">
-                                <p class="price_name">13- Нанесення керамічного покриття шкіряний салон</p>
-                                <span class="prices_services">5000 - 6000 грн</span>
+                                <p class="price_name">Хімчистка салона авто</p>
+                                <span class="prices_services">Малий <?php echo $sm_cleaning_salon; ?> | Середній <?php echo $md_cleaning_salon; ?> | Бізнес <?php echo $bis_cleaning_salon; ?> |
+                                    Позашляховик <?php echo $cros_cleaning_salon; ?> </span>
                             </div>
                             <div class="price_row">
-                                <p class="price_name">14- Реставрація шкіряного салону</p>
-                                <span class="prices_services">Договірна</span>
+                                <p class="price_name">Хімчистка сидінь</p>
+                                <span class="prices_services"><?php echo $sm_cleaning_seats; ?></span>
                             </div>
                             <div class="price_row">
-                                <p class="price_name">15- Реставраційні роботи</p>
-                                <span class="prices_services">Договірна</span>
+                                <p class="price_name">Озонація</p>
+                                <span class="prices_services"><?php echo $sm_ozonation; ?></span>
                             </div>
                             <div class="price_row">
-                                <p class="price_name">16- Тонування</p>
-                                <span class="prices_services">4000 - 8000 грн</span>
+                                <p class="price_name">Нанесення керамічного покриття шкіряний салон</p>
+                                <span class="prices_services"><?php echo $sm_dry_coating; ?></span>
+                            </div>
+                            <div class="price_row">
+                                <p class="price_name">Реставрація шкіряного салону</p>
+                                <span class="prices_services"><?php echo $sm_leather_interior; ?></span>
+                            </div>
+                            <div class="price_row">
+                                <p class="price_name">Реставраційні роботи</p>
+                                <span class="prices_services"><?php echo $sm_resavr; ?></span>
+                            </div>
+                            <div class="price_row">
+                                <p class="price_name">Тонування</p>
+                                <span class="prices_services"><?php echo $sm_drowning; ?></span>
                             </div>
                         </div>
                     </div>

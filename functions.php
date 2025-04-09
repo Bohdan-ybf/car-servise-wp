@@ -55,7 +55,7 @@ add_action('wp', function() {
            $sm_drowning, $md_drowning, $prem_drowning, $cros_drowning,
            $sm_dry_coating, $md_dry_coating, $bis_dry_coating, $prem_dry_coating, $cros_dry_coating,
            $sm_zakhist_glossy, $md_zakhist_glossy, $bis_zakhist_glossy, $prem_zakhist_glossy, $cros_zakhist_glossy,
-           $sm_ozonation, $md_ozonation, $bis_ozonation, $prem_ozonation, $cros_ozonation;
+           $sm_ozonation, $md_ozonation, $bis_ozonation, $prem_ozonation, $cros_ozonation, $sm_cleaning_bitumen, $sm_hard_wax, $sm_cleaning_seats, $sm_leather_interior, $sm_resavr;
 
     $sm_polishing = get_field('sm_polishing', $car_page_id);
     $md_polishing = get_field('md_polishing', $car_page_id);
@@ -139,6 +139,12 @@ add_action('wp', function() {
     $bis_ozonation = get_field('bis_ozonation', $car_page_id);
     $prem_ozonation = get_field('prem_ozonation', $car_page_id);
     $cros_ozonation = get_field('cros_ozonation', $car_page_id);
+
+    $sm_cleaning_bitumen = get_field('sm_cleaning_bitumen', $car_page_id);
+    $sm_hard_wax = get_field('sm_hard_wax', $car_page_id);
+    $sm_cleaning_seats = get_field('sm_cleaning_seats', $car_page_id);
+    $sm_leather_interior = get_field('sm_leather_interior', $car_page_id);
+    $sm_resavr = get_field('sm_resavr', $car_page_id);
 });
 
 // Добавляем поддержку миниатюр, заголовков и логотипов
