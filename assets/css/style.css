@@ -1102,7 +1102,7 @@ button.special_offers_box:hover {
 
 .nav-link.nav_link_text {
     color: #FFFEFE;
-    background-color: #35353591;
+    background-color: #353535;
     border: 1px solid transparent;
     border-radius: 0;
 }
@@ -1428,6 +1428,14 @@ button.special_offers_box:hover {
     .container {
         padding: 0 30px;
     }
+
+    .our_services_slide:hover:before {
+        background: linear-gradient(rgba(0, 0, 0, 20%), rgba(0, 0, 0, 60%));
+    }
+
+    .footer_wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1611,7 +1619,7 @@ button.special_offers_box:hover {
     }
 
     .main_banner:before {
-        background: linear-gradient(rgb(0 0 0 / 55%), rgba(0, 0, 0, 100%));
+        background: linear-gradient(rgb(0 0 0 / 70%), rgba(0, 0, 0, 100%));
     }
 
     .swiper-slide.swiper_about_slide {
@@ -1624,4 +1632,148 @@ button.special_offers_box:hover {
     .swiper-slide.swiper_about_slide {
         height: 240px;
     }
+}
+
+@media (max-width: 400px) {
+    .shake {
+        width: 20px;
+    }
+
+    .header_tel {
+        font-size: 12px;
+    }
+
+    .header_tel>svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .main_banner_text {
+        font-size: 19px;
+    }
+
+    .main_banner_bottom_text {
+        font-size: 12px;
+    }
+
+    .banner_call_button {
+        max-width: 275px;
+    }
+
+    .our_services_title {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .our_services_text {
+        line-height: normal;
+        font-size: 14px;
+    }
+
+    .our_services_slide {
+        height: 240px;
+    }
+
+    .why_us_title {
+        font-size: 18px;
+    }
+
+    .why_us_text {
+        font-size: 14px;
+    }
+
+    .special_offers_title {
+        font-size: 24px;
+    }
+
+    .special_offers_text {
+        line-height: normal;
+        font-size: 14px;
+    }
+
+    .actions_modal-title {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .actions_modal_text {
+        font-size: 14px;
+    }
+
+    .btn_close_offcanvas {
+        height: 25px;
+        max-width: 25px;
+    }
+
+    .footer_text {
+        font-size: 14px;
+    }
+
+    .footer_item {
+        font-size: 14px;
+    }
+
+    .why_us_img {
+        height: 155px;
+    }
+
+    .service_title {
+        font-size: 20px;
+    }
+
+    .service_text {
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    .section_service {
+        padding: 50px 0;
+    }
+
+    .price_row {
+        grid-template-columns: 1fr;
+    }
+
+    .price_name {
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid #4d4d4d;
+    }
+
+    .about_text {
+        font-size: 16px;
+    }
+
+    .section_about_first {
+        padding: 50px 0;
+    }
+
+    .advantages_title {
+        font-size: 20px;
+    }
+
+    .advantages_number {
+        font-size: 44px;
+    }
+
+    .section_about_map>a {
+        height: 25vh;
+    }
+
+    .special_offers_title {
+        font-size: 16px;
+    }
+
+    .contact_info-body>.offcanvas_info_link,
+    .contact_info-body>.offcanvas_info_text {
+        font-size: 16px;
+    }
+
+    .section_contact {
+        margin-bottom: 80px;
+    }
+
+    .main_banner_logo {
+        max-width: 250px;
+    }
+
 }
